@@ -1,16 +1,15 @@
 {
-  "name": "node-github-auth-example",
+  "name": "oauth-test-with-github",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "oauth github",
+  "main": "server.js",
   "scripts": {
-    "start": "node -r esm -r dotenv/config server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "daofullstack",
   "license": "ISC",
   "dependencies": {
+    "cookie-session": "^1.4.0",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
